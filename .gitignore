@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+
+# ML artifacts
+models/*.pkl
+models/*.joblib
+models/*.bin
+
+# Data
+data/raw/*
+data/processed/*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Python
+.pytest_cache/
+.mypy_cache/
+
+# Node/frontend
+node_modules/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
