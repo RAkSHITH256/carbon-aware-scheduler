@@ -31,3 +31,21 @@ dist/
 
 # Jupyter
 .ipynb_checkpoints/
+
+
+# Local MLflow tracking and artifacts
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+
+# Local scheduler state and audit outputs
+monitoring/*.sqlite3
+monitoring/*.sqlite3-shm
+monitoring/*.sqlite3-wal
+
+# Local execution telemetry
+monitoring/execution_feedback.csv
+monitoring/decision_audit.jsonl
+
+# Experiment outputs are reviewed and selectively committed
